@@ -140,7 +140,7 @@ const Sidebar = () => {
             >
               APP
             </Typography>
-            <Item
+            {/* <Item
               title="Manage Team"
               to="/team"
               icon={<PeopleOutlinedIcon />}
@@ -153,9 +153,23 @@ const Sidebar = () => {
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
+            /> */}
+            <Item
+              title="Quotation"
+              to="/invoices"
+              icon={<ReceiptOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-              title="Invoices Balances"
+              title="Delivery"
+              to="/invoices"
+              icon={<ReceiptOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Invoices"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
